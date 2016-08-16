@@ -1,0 +1,94 @@
+/*styles.css*/
+
+html,
+body {
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* cover */
+
+#cover {
+    background: #222 url('img/landscape.jpg') center center no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#cover-caption {
+    width: 100%;
+}
+
+#cover-caption h1 {
+    font-weight: 400;
+}
+    
+.section-content {
+    padding: 5rem 0;
+}
+
+#about {
+    background: url('img/portrait.jpg') center center no-repeat;
+    backgroun-size: cover;
+}
+
+.about-text {
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding: 1.875rem;
+}
+
+#footer-main {
+    background: #222;
+    color: white;
+    font-size: 0.8rem;
+    padding: 2.5rem 0;
+}
+
+.btn-secondary-outline {
+    border-width: 2px;
+    border-color: whitesmoke;
+}
+
+.btn-group-sm > .btn, 
+.btn-sm {
+    color: whitesmoke;
+}
+
+@media (min-width: 544px) {
+.carousel-control .icon-next, 
+.carousel-control .icon-prev {
+    font-size: 5rem;
+}
+    
+    }
+
+.fa-home {
+    color: darkgray;
+}
+
+.fa-home:hover {
+    color: rgba(255,255,255,.75)
+}
+
+.carousel-caption {
+    bottom: 20%;
+}
+
+.carousel-indicators {
+  bottom: 17%;
+}
+
+#footer-main a {
+    color: #f0ad4e;
+}
+
+.news {
+    margin-top: 2rem;
+}
